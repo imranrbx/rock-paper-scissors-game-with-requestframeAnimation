@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <title> Rock, Paper, Scissors</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+  <!-- 
+    1 -- rock beats scissor
+    2 -- scissor beats paper
+    3 -- paper beast rock
+    4 -- same then draw
+   -->
+  <div id="container">
+    <header>
+
+      <h1>Rock, Paper, Scissors Game</h1>
+      <h2>Score: <span id='showScore'>0</span></h2>
+    </header>
+    <main>
+      <div id="images">
+        <img src="./images/icon-rock.svg" />
+        <img src="./images/icon-paper.svg" />
+        <img src="./images/icon-scissors.svg" />
+      </div>
+      <div id="result">
+        <img src="./images/icon-rock.svg" alt="">
+        <div id="choice">
+          <h2></h2>
+          <button id="playAgain">Play Again</button>
+        </div>
+        <img src="./images/icon-scissors.svg" alt="">
+      </div>
+    </main>
+  </div>
+  <script src="./main.js"></script>
+</body>
+
+</html>
